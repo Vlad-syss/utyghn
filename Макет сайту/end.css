@@ -1,0 +1,421 @@
+body{
+    font-family: 'Titillium Web', sans-serif;
+    margin: 0;
+}
+header{
+    height: 600px;
+    background-color:#795198;
+}
+header div.menu img{
+    padding-top: 50px;
+    padding-left: 200px;
+}
+header div.menu ul{
+    list-style-type: none;
+    margin: 0;
+}
+header div.menu ul li{
+    display: inline-block;
+    margin-top: 50px;
+}
+header div.menu ul li a{
+    text-decoration: none;
+    font-size: 18px;
+    color: #fff;
+    margin-left: 20px;
+    transition: all .4s;
+}
+header div.menu ul li a:hover{
+    background-color:#5b3d76;
+    padding:2px 14px;
+    border-radius:5px;
+}
+header div.menu ul li a.mp{
+    margin-right: 230px;
+}
+header div.main h1{
+    font-size: 42px;
+    font-weight: bold;
+    text-align: center;
+    max-width: 880px;
+    margin: 130px auto;
+    margin-bottom: 0;
+    color: #f6f2ea;
+}
+header div.main a{
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    width: 290px;
+    color: #fff;
+    margin: 0 auto;
+    font-size: 18px;
+    background-color: #d27c4f;
+    padding: 20px;
+    margin-top: 40px;
+    border-radius: 3px 3px 3px 3px;
+    transition: all .4s;
+}
+header div.main a:hover{
+     box-shadow: 0 6px #b36a43;
+}
+/*************************************
+************Service******************
+*************************************/
+section.service{
+    background-color:#6fc1a4;
+    height:800px;
+}
+section.service div.ser h2{
+    text-align: center;
+    font-size:40px;
+    color:#fff ;
+    margin-top:120px;
+    word-spacing: 5px;
+    letter-spacing: 2px;
+    padding-bottom: 10px;
+    border-bottom: 3px solid #5ea48c;
+}
+section.service div.ser p.text{
+    display: block;
+    color:#fff;
+    font-size:18px;
+    width:560px;
+    padding-top: 20px;
+    text-align: center;
+    word-spacing:2px;
+    margin: 0 auto;
+    letter-spacing: 1px;
+    font-weight: bold;
+}
+section.service div.ser img{
+    margin:0 auto;
+    display: block;
+    padding-top: 80px;
+}
+section.service div.ser h3{
+    padding-top:45px;
+    color: #fff;
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+}
+section.service div.ser p{
+    text-align: center;
+    padding-top: 5px;
+    color:aliceblue;
+    font-size:16px;
+    width: 180px;
+    display: block;
+    margin: auto;
+}
+/********************************
+*******next section**************
+********************************/
+section.service-1{
+    height: 980px;
+    background-color: #eaf1f7;
+}
+section.service-1 div.serv h2{
+    padding-top: 113px;
+    color: #414860;
+    font-size: 41px;
+    text-align: center;
+    letter-spacing: 2px;
+    padding-bottom: 20px;
+    border-bottom: 3px solid lightgray;
+}
+section.service-1 div.serv p{
+    font-weight: bold;
+    color: #414860;
+    font-size:19px;
+    text-align: center;
+    margin-top: 20px;   
+}
+section.service-1 div.serv img.image{
+    height: 270px;
+    width: 190px;
+    padding-top: 80px;
+    display: block;
+    margin: 0 auto;
+}
+section.service-1 div.serv h3{
+    text-align: center;
+    color: #414860;
+    letter-spacing: 1px;
+    margin-top: 15px;
+    font-size:24px;
+    margin-bottom: 0;
+}
+section.service-1 div.serv a{
+    display: block;
+    text-align: center;
+    color:#6fb8e5;
+    font-size: 16px;
+    font-weight: bold;
+    text-decoration: none;
+}
+section.service-1 div.serv ul{
+    list-style-type: none;
+    margin: 0;
+}
+section.service-1 div.serv ul li{
+    display: inline-block;
+    margin-top:20px;
+}
+li.fb, li.tw, li.in, li.ml{
+   display: block;
+   margin-left: 15px;
+} 
+/*****************************
+*****second*******************
+*****************************/
+section.second{
+    height: 700px;
+}
+section.second h1{
+    text-align: center;
+    font-size:40px;
+    color: #414860;
+    font-weight: bold;
+    border-bottom: 3px solid lightgray;
+    padding-top: 90px;
+    letter-spacing: 2px;
+    word-spacing: 5px;
+    padding-bottom: 20px;
+}
+section.second p{
+    text-align: center;
+    font-size:18px;
+    color: #414860;
+    padding-top: 20px;
+    width: 560px;
+    display: block;
+    margin: auto;
+}
+section.second img{
+    display: block;
+    margin: 80px auto;
+}
+/*****************************
+**************mac*************
+*****************************/
+section.mac{
+    height: 1450px;
+    background-color: #f6dc9b;
+}
+section.mac h1{
+    padding-top: 120px;
+    text-align: center;
+    font-size:40px ;
+    letter-spacing: 6px;
+    color: #3c3c3c;
+    border-bottom: 3px solid lightgray;
+    padding-bottom: 10px;
+}
+section.mac p{
+    padding-top: 10px;
+    font-size:18px;
+    color: #3c3c3c;
+    text-align: center;  
+    margin: 0; 
+}
+section.mac ul{
+    list-style-type: none;
+    margin: 0;
+}
+section.mac ul li{
+    display: inline-block;
+    padding: 30px 0 60px;
+}
+section.mac ul li a{
+    text-decoration: none;
+    display: block;
+    text-align: center;
+    color: #3c3c3c;
+    font-size: 18px;
+    padding: 3px 14px;
+    border-radius: 5px;
+    background-color: #e2c887;
+    margin-right: 5px;
+    transition: 0.6s all;
+}
+section.mac ul li a:hover{
+    background-color: #fff;
+}
+a.first{
+    margin-left: 380px;
+}
+section.mac h2{
+    text-align: center;
+    font-size: 23px;
+    padding-bottom: 55px;
+    color: #3c3c3c;
+}
+section.mac a.load{
+    text-decoration: none;
+    display:block;
+    background-color:#6fc1a4;
+    width: 280px;
+    border-radius:5px;
+    color: #fff;
+    text-align: center;
+    margin: 0 auto;
+    padding: 23px;
+    transition: all 0.4s;
+}
+section.mac a.load:hover{
+box-shadow:0 6px #6fb8e5;
+}
+/*****************************
+***********say****************
+*****************************/
+section.say{
+    background-color: #bb487d;
+    height: 1080px;
+}
+section.say h1{
+    padding-top: 120px;
+    text-align: center;
+    color: #fff;
+    font-size:40px ;
+    word-spacing: 3px;
+    letter-spacing: 4px;
+    border-bottom: 3px solid #9f3d6a;
+    padding-bottom: 20px;   
+}
+section.say div.text{
+    text-align:center;
+    color: #fff;
+    font-size:18px;
+    margin-bottom: 70px;
+}
+section.say p{
+    color: #fff;
+    font-size:20px;
+    width:430px;
+    height: 80px;
+    margin: 0;
+    margin-left: 50px;
+}
+section.say img{
+    height: 140px;
+    width: 140px;
+    margin-right: 50px;
+}
+section.say h2{
+    display: block;
+    margin-top: 30px;
+    color: #fff;
+    font-size: 24px;
+    font-weight: normal;
+}
+section.say a{
+    display: block;
+    text-decoration: none;
+    color:#f6dc9b ;
+    font-size:18px ;
+    margin-bottom: 150px;
+    margin-left: 189px;
+}
+section.say a:hover{
+    text-decoration: underline;
+}
+/******************************
+********section footer*********
+******************************/
+section.footer{
+    height: 900px;
+    background-color: #455496;
+}
+section.footer h1{
+    text-align: center;
+    margin-top:115px;
+    color:#fff;
+    letter-spacing: 3px;
+    font-size: 40px;
+    border-bottom: 3px solid #313d6f;
+    padding-bottom: 20px;
+}
+section.footer p{
+    text-align: center;
+    color: #fff;
+    font-size:18px;
+    margin-top: 20px;
+    font-weight: bolder;
+    letter-spacing: 2px;
+}
+section.footer input[type="text"],input[type="email"], textarea{  
+    color:#fff;
+    font-size: 17px;
+    padding: 10px;
+    background-color:#313d6f ;
+    border: none;
+    border-radius: 4px;
+}
+::placeholder{
+    color: #fff;
+}
+section.footer input[type="text"],input[type="email"]{
+    height: 62px;
+    width: 500px;
+    margin-right: 40px;
+    margin-top: 50px;
+}
+section.footer .mmm{
+    display:inline-block;
+}
+section.footer textarea{
+    width:1020px;
+    height:300px ;
+    margin-top: 30px;
+    resize: none;
+    padding: 20px;
+    color: #fff;
+}
+section.footer a{
+     text-decoration: none;
+     display:block;
+     background-color:#6fb9e5;
+     width: 280px;
+     border-radius:5px;
+     color: #fff;
+     text-align: center;
+     margin: 30px auto;
+     padding: 23px;
+     transition: all 0.4s;
+ }
+    section.footer a:hover{
+    box-shadow:0 6px lightblue;
+}
+/*******************************
+***********footer***************
+*******************************/
+footer{
+    background-color:#3e4c8b;
+    height: 120px;
+}
+footer ul{
+    list-style-type: none;
+    margin:0;
+    padding: 0;
+    display: flex;
+    justify-content: space-around;
+}
+footer ul li{
+    display:inline-block;
+    text-align: center;
+    padding-top: 50px;
+
+}
+footer ul li a{
+    text-decoration: none;
+    color:#fff;
+    font-size: 24px;
+    transition: all 0.4s;
+    font-weight: bold;
+}
+footer ul li a:hover{
+   color:#6fb9e5;
+}
+
